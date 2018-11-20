@@ -36,8 +36,6 @@ class NameFormTest extends WebTestBase {
 
   /**
    * Test the submission of the form.
-   *
-   * @throws \Exception
    */
   public function testNameFormSubmit() {
     $this->drupalPostForm(
