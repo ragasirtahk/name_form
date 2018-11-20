@@ -1,0 +1,7 @@
+people.form:
+ path: '/name/form'
+ defaults:
+   _title: 'Name Form'
+   _form: '\Drupal\name_form\Form\NameForm'
+ requirements:
+   _permission: 'access content'
