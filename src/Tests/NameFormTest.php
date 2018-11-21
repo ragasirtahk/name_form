@@ -21,7 +21,7 @@ class NameFormTest extends WebTestBase {
   /**
    * Tests that 'name/form' returns a 200.
    */
-  public function testNameFormRouterURLIsAccessible() {
+  public function testNameFormRouterUrlIsAccessible() {
     $this->drupalGet('name/form');
     $this->assertResponse(200, 'URL is accessible to user.');
   }
